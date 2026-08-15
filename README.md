@@ -13,8 +13,8 @@ Any other robot that mounts the same camera clones `xgc2-camera-d435` (or
 this aggregator) and runs:
 
 ```bash
-roslaunch xgc_camera_d435 d435.launch
-roslaunch xgc_camera_d435 d435i.launch
+roslaunch xgc2_camera_d435 d435.launch
+roslaunch xgc2_camera_d435 d435i.launch
 ```
 
 `camera-driver/d435` is the same `xgc2-camera-d435` checkout, nested under
